@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+    <info>
+		<name>Weapons</name>
+		<update version="0.2.0">
+			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/items-weapons.xml" />
+		</update>
+	</info>
+    <element name="Ensorcelled Weapon" type="Magic Item" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_ENSORCELLED_WEAPON">
+		<description>
+			<p>When you make an attack with this magic weapon, you can choose to use your spellcasting ability modifier instead of your Strength or Dexterity modifier for your attack and damage rolls. You must use the same modifier for both rolls. Additionally, you can use this weapon as a spellcasting focus.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
+			<set name="name-format">Ensorcelled {{parent}}</set>
+		</setters>
+	</element>
+</elements>

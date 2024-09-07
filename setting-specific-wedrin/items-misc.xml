@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+    <info>
+		<name>Misc</name>
+		<update version="0.2.0">
+			<file name="items-misc.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/items-misc.xml" />
+		</update>
+	</info>
+    <element name="Additional Expertise (Select)" type="Item" source="Setting Specific (Wedrin)" id="ID_SSW_ITEM_ADDITIONAL_EXPERTISE">
+		<description>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+		</description>
+		<setters>
+			<set name="category">Additional Expertise</set>
+			<set name="keywords">expertise</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<select type="Class Feature" name="Expertise (Additional Expertise)" supports="Expertise"/>
+		</rules>
+	</element>
+</elements>

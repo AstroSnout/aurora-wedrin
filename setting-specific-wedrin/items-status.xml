@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+    <info>
+		<name>Status</name>
+		<update version="0.2.0">
+			<file name="items-status.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/items-status.xml" />
+		</update>
+	</info>
+    <!-- Deck of Many Things drawn cards -->
+    <element name="Deck of Many Things - Throne Card" type="Item" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_THRONE_CARD_SKILL">
+		<description>
+			<p>You drew a Throne card from the Deck of Many Things and are now blessed. You gain proficiency in the Persuasion skill, and you double your proficiency bonus on checks made with that skill. In addition, you gain rightful ownership of a small keep somewhere in the world. However, the keep is currently in the hands of monsters, which you must clear out before you can claim the keep as yours.</p>
+		</description>
+		<setters>
+			<set name="keywords">deck of many things, throne, skill</set>
+			<set name="category">Deck of Many Things</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">misc</set>
+			<set name="type">Wondrous Effect</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+		<rules>		
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+			<stat name="persuasion:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+    <element name="Deck of Many Things - Medusa Card" type="Item" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_MEDUSA_CARD_CURSE">
+		<description>
+			<p>You drew a Medusa card from the Deck of Many Things and are now cursed. You take a -2 penalty on saving throws while cursed in this way. Only a god or the magic of The Fates card can end this curse.</p>
+		</description>
+		<setters>
+			<set name="keywords">deck of many things, curse</set>
+			<set name="category">Deck of Many Things</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">misc</set>
+			<set name="type">Curse</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+		<rules>		
+			<stat name="strength:save:misc" value="-2" />
+			<stat name="dexterity:save:misc" value="-2" />
+			<stat name="constitution:save:misc" value="-2" />
+			<stat name="intelligence:save:misc" value="-2" />
+			<stat name="wisdom:save:misc" value="-2" />
+			<stat name="charisma:save:misc" value="-2" />
+		</rules>
+	</element>
+    <element name="Deck of Many Things - Wish Card" type="Item" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_WISH_CARD_EFFECT">
+		<description>
+			<p>You drew a Wish card from the Deck of Many Things and are now blessed. You gain the ability to cast the <i>Wish</i> spell once.</p>
+		</description>
+		<setters>
+			<set name="keywords">deck of many things, wish</set>
+			<set name="category">Deck of Many Things</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">misc</set>
+			<set name="type">Wondrous Effect</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+	</element>
+    <element name="Deck of Many Things - ASI Card" type="Item" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_ASI_CARD_EFFECT">
+		<description>
+			<p>You drew an Ability Score Improvement card from the Deck of Many Things and are now blessed. You can increase one of your ability scores by 2 (your choice).</p>
+		</description>
+		<setters>
+			<set name="keywords">deck of many things, asi</set>
+			<set name="category">Deck of Many Things</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">misc</set>
+			<set name="type">Wondrous Effect</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+        <rules>
+			<select type="Ability Score Improvement" name="Deck of Many Things" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_CONSTITUTION|ID_PHB_FEAT_ASI_WISDOM|ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_CHARISMA" />
+		</rules>
+	</element>
+
+    <!-- Suspicious Meat variants-->
+    <element name="Suspicious Meat, Str +1" type="Item" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_SUSPICIOUS_MEAT_STR">
+		<description>
+			<p>You had a momentary lapse in judgement and decided to consume an obviously suspicious piece of magical meat. Nevertheless, your reckless behaviour was rewarded with a permanent +1 Strength Ability Score Improvement, congratulations!</p>
+		</description>
+		<setters>
+			<set name="keywords">suspicious, meat</set>
+			<set name="category">Additional Ability Score Improvement</set>
+			<set name="type">Wondrous Effect</set>
+			<set name="slot">misc</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+		<rules>
+			<stat name="strength" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Suspicious Meat, Dex +1" type="Item" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_SUSPICIOUS_MEAT_DEX">
+		<description>
+			<p>You had a momentary lapse in judgement and decided to consume an obviously suspicious piece of magical meat. Nevertheless, your reckless behaviour was rewarded with a permanent +1 Dexterity Ability Score Improvement, congratulations!</p>
+		</description>
+		<setters>
+			<set name="keywords">suspicious, meat</set>
+			<set name="category">Additional Ability Score Improvement</set>
+			<set name="type">Wondrous Effect</set>
+			<set name="slot">misc</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Suspicious Meat, Con +1" type="Item" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_SUSPICIOUS_MEAT_CON">
+		<description>
+			<p>You had a momentary lapse in judgement and decided to consume an obviously suspicious piece of magical meat. Nevertheless, your reckless behaviour was rewarded with a permanent +1 Constitution Ability Score Improvement, congratulations!</p>
+		</description>
+		<setters>
+			<set name="keywords">suspicious, meat</set>
+			<set name="category">Additional Ability Score Improvement</set>
+			<set name="type">Wondrous Effect</set>
+			<set name="slot">misc</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Suspicious Meat, Int +1" type="Item" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_SUSPICIOUS_MEAT_INT">
+		<description>
+			<p>You had a momentary lapse in judgement and decided to consume an obviously suspicious piece of magical meat. Nevertheless, your reckless behaviour was rewarded with a permanent +1 Intelligence Ability Score Improvement, congratulations!</p>
+		</description>
+		<setters>
+			<set name="keywords">suspicious, meat</set>
+			<set name="category">Additional Ability Score Improvement</set>
+			<set name="type">Wondrous Effect</set>
+			<set name="slot">misc</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Suspicious Meat, Wis +1" type="Item" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_SUSPICIOUS_MEAT_WIS">
+		<description>
+			<p>You had a momentary lapse in judgement and decided to consume an obviously suspicious piece of magical meat. Nevertheless, your reckless behaviour was rewarded with a permanent +1 Wisdom Ability Score Improvement, congratulations!</p>
+		</description>
+		<setters>
+			<set name="keywords">suspicious, meat</set>
+			<set name="category">Additional Ability Score Improvement</set>
+			<set name="type">Wondrous Effect</set>
+			<set name="slot">misc</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+		<rules>
+			<stat name="wisdom" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Suspicious Meat, Cha +1" type="Item" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_SUSPICIOUS_MEAT_CHA">
+		<description>
+			<p>You had a momentary lapse in judgement and decided to consume an obviously suspicious piece of magical meat. Nevertheless, your reckless behaviour was rewarded with a permanent +1 Charisma Ability Score Improvement, congratulations!</p>
+		</description>
+		<setters>
+			<set name="keywords">suspicious, meat</set>
+			<set name="category">Additional Ability Score Improvement</set>
+			<set name="type">Wondrous Effect</set>
+			<set name="slot">misc</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+		<rules>
+			<stat name="charisma" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+</elements>
