@@ -2,7 +2,7 @@
 <elements>
     <info>
 		<name>Weapons</name>
-		<update version="0.2.0">
+		<update version="0.2.1">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/items-weapons.xml" />
 		</update>
 	</info>
@@ -17,6 +17,25 @@
 			<set name="rarity">Rare</set>
 			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
 			<set name="name-format">Ensorcelled {{parent}}</set>
+		</setters>
+	</element>
+    <element name="Whispering Dagger" type="Magic Item" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_ENSORCELLED_WEAPON">
+		<description>
+            <p>The Whispering Dagger is a slender blade with a dark, iridescent sheen that shifts and changes as light touches it. The hilt is wrapped in supple leather, engraved with ancient runes that pulse with faint psychic energy. The blade itself seems to shimmer and blur, as though not fully anchored in the physical world. When held, the dagger feels almost weightless, and the air around it seems unnaturally still, as if holding its breath.</p>
+            <p class="indent"><i><b>Silent.</b></i> Attacks with this weapon make no sound.</p>
+            <p class="indent"><i><b>Shapeshifting.</b></i> The Whispering Dagger can change its form at will, allowing it to resemble any small weapon or tool (e.g., a knife, a stylus, a small hammer), though it always retains its dagger statistics. Changing the blade's shape is a bonus action.</p>
+            <p class="indent"><i><b>Fey-touched.</b></i> When the attuned creature attacks with the Whispering Dagger, they can use their Charisma modifier instead of Strength or Dexterity for attack and damage rolls.</p>
+            <p class="indent"><i><b>Spell-imbued.</b></i> The attuned creature can cast Green-Flame Blade cantrip at will, though the damage type of the cantrip changes to psychic.</p>
+		</description>
+		<setters>
+            <set name="keywords">dagger, psychic</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="dagger">Weapon</set>
+            <set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="weapon">Dagger</set>
+            <set name="name-format">Whispering Dagger</set>
 		</setters>
 	</element>
 </elements>
