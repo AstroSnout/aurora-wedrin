@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Source</name>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="source.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/source.xml" />
 		</update>
 	</info>
@@ -12,7 +12,7 @@
 		</description>
 		<setters>
 			<set name="abbreviation">SSW</set>
-			<set name="image">https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/FFXIV.png</set>
+			<set name="image">https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/wedrin.jpg</set>
 			<set name="url">https://github.com/AstroSnout/aurora-wedrin/tree/master</set>
             <set name="author" url="https://github.com/AstroSnout">AstroSnout</set>
 			<set name="release">20240821</set>
