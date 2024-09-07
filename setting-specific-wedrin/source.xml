@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Source</name>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="source.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/source.xml" />
 		</update>
 	</info>
