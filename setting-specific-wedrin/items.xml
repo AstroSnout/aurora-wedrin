@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Items</name>
-		<update version="0.1.0">
+		<update version="0.1.1">
 			<file name="items.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/items.xml" />
 		</update>
 	</info>
@@ -215,25 +215,21 @@
 			<select type="Class Feature" name="Expertise (Additional Expertise)" supports="Expertise"/>
 		</rules>
 	</element>
-	<element name="Ensorcelled Shortbow" type="Magic Item" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_ENSORCELLED_SHORTBOW">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_BOWS</supports>
+	<!-- Ensorcelled Weapons -->
+	<element name="Ensorcelled Weapon" type="Magic Item" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_ENSORCELLED_WEAPON">
 		<description>
 			<p>When you make an attack with this magic weapon, you can choose to use your spellcasting ability modifier instead of your Strength or Dexterity modifier for your attack and damage rolls. You must use the same modifier for both rolls. Additionally, you can use this weapon as a spellcasting focus.</p>
 		</description>
 		<setters>
-			<set name="keywords">attack, damage, spellcasting focus</set>
-			<set name="category">Setting Specific (Wedrin)</set>
+			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="type" addition="Shortbow">Weapon</set>
+			<set name="type" addition="any">Weapon</set>
 			<set name="rarity">Rare</set>
-			<set name="weapon">Shortbow</set>
-			<set name="slot">twohand</set>
-			<set name="weight" lb="5">5 lb.</set>
-			<set name="range">80/320</set>
-			<set name="damage" type="piercing">1d8</set>
-			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
+			<set name="name-format">Ensorcelled {{parent}}</set>
 		</setters>
 	</element>
+	<!-- -->
 	<element name="Cloak of Ever-Changing Fashion" type="Magic Item" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_CLOAK_OF_EVERCHANGING_FASHION">
 		<description>
 			<p>While wearing this cloak, you can use a bonus action to change the style, color, and apparent quality of the garment. The cloak's weight doesn't change. Regardless of its appearance, the cloak can't be anything but a cloak. Although it can duplicate the appearance of other magic cloaks, it doesn't gain their magical properties.</p>
