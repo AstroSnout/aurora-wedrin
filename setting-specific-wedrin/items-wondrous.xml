@@ -83,4 +83,32 @@
 			<set name="slot">shoulder</set>
 		</setters>
 	</element>
+    <element name="Whistle of Telepathy" type="Magic Item" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_WHISTLE_OF_TELEPATHY">
+		<description>
+			<p>As an action, you can blow the whistle to possibly establish a telepathic connection with a specific creature for 1 minute. The specific creature with whom you're establishing this connection is determined at the time the item is created. </p>
+		</description>
+		<setters>
+			<set name="keywords">whistle, telepathy</set>
+			<set name="category">Wondrous Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Common</set>
+		</setters>
+	</element>
+    <element name="Djinni Shell" type="Magic Item" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_DJINNI_SHELL">
+		<description>
+			<p>As an action, you can whisper into the shell to summon the Djinni that originally gave this item away. The Djinni appears on the closest surface of open sea water, ready to aid the whistler and his companions.</p>
+		</description>
+		<setters>
+			<set name="keywords">shell, djinni</set>
+			<set name="category">Wondrous Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
 </elements>
