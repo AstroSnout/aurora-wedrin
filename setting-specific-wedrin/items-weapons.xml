@@ -2,7 +2,7 @@
 <elements>
     <info>
 		<name>Weapons</name>
-		<update version="0.2.1">
+		<update version="0.2.2">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/items-weapons.xml" />
 		</update>
 	</info>
@@ -19,7 +19,7 @@
 			<set name="name-format">Ensorcelled {{parent}}</set>
 		</setters>
 	</element>
-    <element name="Whispering Dagger" type="Magic Item" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_ENSORCELLED_WEAPON">
+    <element name="Whispering Dagger" type="Magic Item" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_WHISPERING_DAGGER">
 		<description>
             <p>The Whispering Dagger is a slender blade with a dark, iridescent sheen that shifts and changes as light touches it. The hilt is wrapped in supple leather, engraved with ancient runes that pulse with faint psychic energy. The blade itself seems to shimmer and blur, as though not fully anchored in the physical world. When held, the dagger feels almost weightless, and the air around it seems unnaturally still, as if holding its breath.</p>
             <p class="indent"><i><b>Silent.</b></i> Attacks with this weapon make no sound.</p>
