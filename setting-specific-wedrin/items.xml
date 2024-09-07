@@ -217,8 +217,8 @@
 			<select type="Class Feature" name="Expertise (Additional Expertise)" supports="Expertise"/>
 		</rules>
 	</element>
-	<element name="Ensorcelled Crossbow" type="Magic Item" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_ENSORCELLED_CROSSBOW">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_CROSSBOWS</supports>
+	<element name="Ensorcelled Shortbow" type="Magic Item" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_ENSORCELLED_SHORTBOW">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_BOWS</supports>
 		<description>
 			<p>When you make an attack with this magic weapon, you can choose to use your spellcasting ability modifier instead of your Strength or Dexterity modifier for your attack and damage rolls. You must use the same modifier for both rolls. Additionally, you can use this weapon as a spellcasting focus.</p>
 		</description>
@@ -226,14 +226,14 @@
 			<set name="keywords">attack, damage, spellcasting focus</set>
 			<set name="category">Setting Specific (Wedrin)</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="type" addition="Crossbow, Light">Weapon</set>
+			<set name="type" addition="Shortbow">Weapon</set>
 			<set name="rarity">Rare</set>
-			<set name="weapon">Crossbow, Light</set>
+			<set name="weapon">Shortbow</set>
 			<set name="slot">twohand</set>
 			<set name="weight" lb="5">5 lb.</set>
 			<set name="range">80/320</set>
 			<set name="damage" type="piercing">1d8</set>
-			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW</set>
 		</setters>
 	</element>
 	<element name="Cloak of Ever-Changing Fashion" type="Magic Item" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_CLOAK_OF_EVERCHANGING_FASHION">
