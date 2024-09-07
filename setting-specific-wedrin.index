@@ -4,7 +4,7 @@
 		<name>Setting Specific - Wedrin</name>
 		<description>The content from the setting specific supplement for Wedrin.</description>
 		<author url="">Tjofo</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="setting-specific-wedrin.index" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin.index" />
 		</update>
 	</info>
