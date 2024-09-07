@@ -5,11 +5,12 @@
 		<description>The content from the setting specific supplement for Wedrin.</description>
 		<author url="">Tjofo</author>
 		<update version="0.0.1">
-			<file name="setting-specific-wedrin.index" url="" />
+			<file name="setting-specific-wedrin.index" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin.index" />
 		</update>
 	</info>
 	<files>
-		<file name="sources.xml" url="" />
-		<file name="items.xml" url="" />
+		<file name="sources.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/sources.xml" />
+		<file name="items.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/items.xml" />
+		<file name="optional-class-features.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/optional-class-features.xml" />		
 	</files>
 </index>
