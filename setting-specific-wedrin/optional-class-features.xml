@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <!-- Bardic Versatility -->
 	<element name="Extra Attack (2024)" type="Class Feature" source="Setting Specific (Wedrin)" id="ID_SSW_CLASS_FEATURE_BARD_EXTRA_ATTACK">

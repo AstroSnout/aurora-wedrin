@@ -3,7 +3,7 @@
 	<info>
 		<name>Source</name>
 		<update version="0.0.1">
-			<file name="sources.xml" url="" />
+			<file name="source.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/source.xml" />
 		</update>
 	</info>
 	<element name="Setting Specific (Wedrin) - Supplement" type="Source" source="Core" id="ID_SOURCE_SSW">
