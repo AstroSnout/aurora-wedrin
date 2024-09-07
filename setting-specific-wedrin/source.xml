@@ -12,8 +12,9 @@
 		</description>
 		<setters>
 			<set name="abbreviation">SSW</set>
+			<set name="image">https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/FFXIV.png</set>
 			<set name="url">https://github.com/AstroSnout/aurora-wedrin/tree/master</set>
-            <set name="author">Tjofo</set>
+            <set name="author" url="https://github.com/AstroSnout">AstroSnout</set>
 			<set name="release">20240821</set>
 			<set name="homebrew">true</set>
 		</setters>
