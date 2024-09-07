@@ -2,9 +2,7 @@
 <elements>
 	<info>
 		<name>Optional Class Features</name>
-		<description>The Optional Class Features for the campaign (some yoinked, some homebrewed)</description>
-		<author url="https://github.com/AstroSnout">AstroSnout</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="optional-class-features.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/optional-class-features.xml" />
 		</update>
 	</info>

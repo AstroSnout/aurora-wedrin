@@ -2,9 +2,7 @@
 <elements>
 	<info>
 		<name>Items</name>
-		<description>Items homebrewed for the campaign</description>
-		<author url="https://github.com/AstroSnout">AstroSnout</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="items.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/items.xml" />
 		</update>
 	</info>
