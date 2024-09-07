@@ -2,7 +2,7 @@
 <elements>
     <info>
 		<name>Status</name>
-		<update version="0.2.0">
+		<update version="0.2.1">
 			<file name="items-status.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/items-status.xml" />
 		</update>
 	</info>
@@ -61,6 +61,7 @@
 			<set name="rarity">Legendary</set>
 		</setters>
 	</element>
+    <!-- Deck of Many ASIs -->
     <element name="Deck of Many Things - ASI Card" type="Item" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_ASI_CARD_EFFECT">
 		<description>
 			<p>You drew an Ability Score Improvement card from the Deck of Many Things and are now blessed. You can increase one of your ability scores by 2 (your choice).</p>
@@ -75,7 +76,74 @@
 			<set name="rarity">Legendary</set>
 		</setters>
         <rules>
-			<select type="Ability Score Improvement" name="Deck of Many Things" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_CONSTITUTION|ID_PHB_FEAT_ASI_WISDOM|ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_CHARISMA" />
+			<select type="Ability Score Improvement" name="Deck of Many Things" supports="Deck of Many Things ASI" />
+		</rules>
+	</element>
+
+    <element name="Strength Card +2" type="Ability Score Improvement" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_ASI_CARD_EFFECT_STRENGTH">
+		<compendium display="false" />
+		<supports>Deck of Many Things ASI</supports>
+		<description>
+			<p>Your Strength score increases by 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="2" alt="Deck of Many Things ASI" />
+		</rules>
+	</element>
+    <element name="Dexterity Card +2" type="Ability Score Improvement" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_ASI_CARD_EFFECT_DEXTERITY">
+		<compendium display="false" />
+		<supports>Deck of Many Things ASI</supports>
+		<description>
+			<p>Your Dexterity score increases by 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="2" alt="Deck of Many Things ASI" />
+		</rules>
+	</element>
+    <element name="Constitution Card +2" type="Ability Score Improvement" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_ASI_CARD_EFFECT_CONSTITUTION">
+		<compendium display="false" />
+		<supports>Deck of Many Things ASI</supports>
+		<description>
+			<p>Your Constitution score increases by 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="2" alt="Deck of Many Things ASI" />
+		</rules>
+	</element>
+    <element name="Wisdom Card +2" type="Ability Score Improvement" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_ASI_CARD_EFFECT_WISDOM">
+		<compendium display="false" />
+		<supports>Deck of Many Things ASI</supports>
+		<description>
+			<p>Your Wisdom score increases by 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="2" alt="Deck of Many Things ASI" />
+		</rules>
+	</element>
+    <element name="Intelligence Card +2" type="Ability Score Improvement" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_ASI_CARD_EFFECT_INTELLIGENCE">
+		<compendium display="false" />
+		<supports>Deck of Many Things ASI</supports>
+		<description>
+			<p>Your Intelligence score increases by 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="intelligence" value="2" alt="Deck of Many Things ASI" />
+		</rules>
+	</element>
+    <element name="Charisma Card +2" type="Ability Score Improvement" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_ASI_CARD_EFFECT_CHARISMA">
+		<compendium display="false" />
+		<supports>Deck of Many Things ASI</supports>
+		<description>
+			<p>Your Charisma score increases by 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="2" alt="Deck of Many Things ASI" />
 		</rules>
 	</element>
 
