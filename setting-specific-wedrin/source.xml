@@ -12,6 +12,7 @@
 		</description>
 		<setters>
 			<set name="abbreviation">SSW</set>
+			<set name="url">https://github.com/AstroSnout/aurora-wedrin/tree/master</set>
             <set name="author">Tjofo</set>
 			<set name="release">20240821</set>
 			<set name="homebrew">true</set>
