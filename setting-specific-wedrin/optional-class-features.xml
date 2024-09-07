@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Optional Class Features</name>
-		<update version="0.0.2">
+		<update version="0.1.0">
 			<file name="optional-class-features.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/optional-class-features.xml" />
 		</update>
 	</info>

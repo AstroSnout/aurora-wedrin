@@ -3,8 +3,8 @@
 	<info>
 		<name>Setting Specific - Wedrin</name>
 		<description>The content from the setting specific supplement for Wedrin.</description>
-		<author url="https://github.com/AstroSnout">Tjofo</author>
-		<update version="0.0.3">
+		<author url="https://github.com/AstroSnout">AstroSnout</author>
+		<update version="0.1.0">
 			<file name="setting-specific-wedrin.index" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin.index" />
 		</update>
 	</info>

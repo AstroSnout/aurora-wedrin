@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Items</name>
-		<update version="0.0.2">
+		<update version="0.1.0">
 			<file name="items.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/items.xml" />
 		</update>
 	</info>
