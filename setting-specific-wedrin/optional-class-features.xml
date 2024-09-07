@@ -1,0 +1,32 @@
+<elements>
+    <!-- Bardic Versatility -->
+	<element name="Extra Attack (2024)" type="Class Feature" source="Setting Specific (Wedrin)" id="ID_SSW_CLASS_FEATURE_BARD_EXTRA_ATTACK">
+		<description>
+			<p><i>6th-level College of Valor feature</i></p>
+			<p>You can attack twice instead of once whenever you take the Attack action on your turn.</p>
+			<p class="indent">In addition, you can cast one of your cantrips that has a casting time of an action in place of one of those attacks.</p>
+		</description>
+		<sheet>
+			<description>You can attack twice instead of once whenever you take the Attack action on your turn. In addition, you can cast one of your cantrips that has a casting time of an action in place of one of those attacks.</description>
+		</sheet>
+	</element>
+
+	<element name="Bard, LV06: Extra Attack" type="Item" source="Setting Specific (Wedrin)" id="ID_SSW_ITEM_OCF_BARD_EXTRA_ATTACK">
+		<compendium display="false" />
+		<description>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<div class="reference">
+				<div element="ID_SSW_CLASS_FEATURE_BARD_EXTRA_ATTACK" />
+			</div>
+		</description>
+		<setters>
+			<set name="category">Optional Class Features</set>
+			<set name="keywords">sixth level, 6th level, extra attack, cantrip, melee</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<grant type="Class Feature" id="ID_SSW_CLASS_FEATURE_BARD_EXTRA_ATTACK" requirements="[level:bard:6]"/>
+		</rules>
+	</element>
+</elements>

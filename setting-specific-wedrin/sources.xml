@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Source</name>
+		<update version="0.0.1">
+			<file name="sources.xml" url="" />
+		</update>
+	</info>
+	<element name="Setting Specific (Wedrin) - Supplement" type="Source" source="Core" id="ID_SOURCE_SSW">
+		<description>
+			<p>Your fellow companion for all things in the world of Wedrin,</p>
+		</description>
+		<setters>
+			<set name="abbreviation">SSW</set>
+<!--			<set name="image">https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/FFXIV.png</set>-->
+<!--			<set name="url">https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv</set>-->
+<!--			<set name="author" abbreviation="USI" url="https://www.reddit.com/r/FFXIVxDnD/">u/SilentSoren</set>-->
+            <set name="author">Tjofo</set>
+			<set name="release">20240821</set>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+</elements>

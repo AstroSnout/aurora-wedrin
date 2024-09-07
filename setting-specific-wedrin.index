@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>SSW</name>
+		<description>The content from the setting specific supplement for Wedrin.</description>
+		<author url="">Tjofo</author>
+		<update version="0.0.1">
+			<file name="setting-specific-wedrin.index" url="" />
+		</update>
+	</info>
+	<files>
+		<file name="sources.xml" url="" />
+		<file name="items.xml" url="" />
+	</files>
+</index>
