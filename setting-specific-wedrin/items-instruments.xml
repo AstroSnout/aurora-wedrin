@@ -2,7 +2,7 @@
 <elements>
     <info>
 		<name>Instruments</name>
-		<update version="0.2.0">
+		<update version="0.2.1">
 			<file name="items-instruments.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/items-instruments.xml" />
 		</update>
 	</info>
@@ -17,7 +17,7 @@
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">1 lbs.</set>
             <set name="slot">onehand</set>
-            <set name="type">Tool</set>
+            <set name="type">Wondrous Item</set>
 			<set name="rarity">Very Rare</set>
             <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_FLUTE</set>
 		</setters>
