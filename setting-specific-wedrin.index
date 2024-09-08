@@ -4,7 +4,7 @@
 		<name>Setting Specific - Wedrin</name>
 		<description>The content from the setting specific supplement for Wedrin.</description>
 		<author url="https://github.com/AstroSnout">AstroSnout</author>
-		<update version="0.2.0">
+		<update version="0.2.1">
 			<file name="setting-specific-wedrin.index" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin.index" />
 		</update>
 	</info>
@@ -18,6 +18,7 @@
 		<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/items-wondrous.xml" />
 		<file name="items-status.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/items-status.xml" />
 		<file name="items-misc.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/items-misc.xml" />
+		<file name="items-instruments.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/items-instruments.xml" />
 		<file name="items.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/items.xml" />
 	</files>
 </index>

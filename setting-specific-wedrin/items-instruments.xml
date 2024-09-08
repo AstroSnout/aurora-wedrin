@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+    <info>
+		<name>Instruments</name>
+		<update version="0.2.0">
+			<file name="items-instruments.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/items-instruments.xml" />
+		</update>
+	</info>
+    <element name="Frequency-Layered Unified Tone Expander 6000" type="Magic Item" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_FLUTE_6000">
+		<description>
+			<p>When played, the endearingly-named "F.L.U.T.E. 6000" emits layers of harmonic frequencies that vibrate through the very fabric of reality, resonating with the minds of those nearby. However, the sheer complexity of the instrument demands extraordinary skill.</p>
+            <p class="indent">The performer must use both his action and bonus action, and succeed on a DC 30 Performance check to harness its full potential. On a successful check, the user can choose up to three creatures within 30 feet. These creatures are invigorated by the layered tones, gaining advantage on one ability check within the next 10 minutes. If a creature benefiting from this magic fails the ability check, they may reroll one of the dice once, as the echoes of the flute's song linger in their mind, giving them another chance at success.</p>
+		</description>
+		<setters>
+			<set name="keywords">flute, super advantage, advantage, 6000</set>
+			<set name="category">Musical Instruments</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">1 lbs.</set>
+            <set name="slot">onehand</set>
+            <set name="type">Tool</set>
+			<set name="rarity">Very Rare</set>
+            <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_FLUTE</set>
+		</setters>
+	</element>
+</elements>
+
