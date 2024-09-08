@@ -2,10 +2,11 @@
 <elements>
     <info>
 		<name>Instruments</name>
-		<update version="0.2.1">
+		<update version="0.2.2">
 			<file name="items-instruments.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/items-instruments.xml" />
 		</update>
 	</info>
+    <!-- These are still classified as "Wondrous Items" as I want them to appear in the "Notes" section on the Inventory sheet-->
     <element name="Frequency-Layered Unified Tone Expander 6000" type="Magic Item" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_FLUTE_6000">
 		<description>
 			<p>When played, the endearingly-named "F.L.U.T.E. 6000" emits layers of harmonic frequencies that vibrate through the very fabric of reality, resonating with the minds of those nearby. However, the sheer complexity of the instrument demands extraordinary skill.</p>
@@ -13,7 +14,7 @@
 		</description>
 		<setters>
 			<set name="keywords">flute, super advantage, advantage, 6000</set>
-			<set name="category">Musical Instruments</set>
+			<set name="category">Wondrous Item</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">1 lbs.</set>
             <set name="slot">onehand</set>
