@@ -2,7 +2,7 @@
 <elements>
     <info>
 		<name>Wondrous Items</name>
-		<update version="0.2.1">
+		<update version="0.2.2">
 			<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/items-wondrous.xml" />
 		</update>
 	</info>
@@ -12,7 +12,7 @@
 		</description>
 		<setters>
 			<set name="keywords">hat, armor, saving throw</set>
-			<set name="category">Wondrous Item</set>
+			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="slot">head</set>
@@ -42,7 +42,7 @@
 		</description>
 		<setters>
 			<set name="keywords">hands, gloves, armor, modify memory, fast friends, charm person</set>
-			<set name="category">Wondrous Item</set>
+			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="slot">hands</set>
@@ -61,7 +61,7 @@
 		</description>
 		<setters>
 			<set name="keywords">shard, gem</set>
-			<set name="category">Wondrous Item</set>
+			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="type">Wondrous Item</set>
@@ -76,7 +76,7 @@
 		</description>
 		<setters>
 			<set name="keywords">fashion, shift, change</set>
-			<set name="category">Wondrous Item</set>
+			<set name="category">Wondrous Items</set>
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">Uncommon</set>
@@ -89,7 +89,7 @@
 		</description>
 		<setters>
 			<set name="keywords">whistle, telepathy</set>
-			<set name="category">Wondrous Item</set>
+			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="type">Wondrous Item</set>
@@ -103,7 +103,7 @@
 		</description>
 		<setters>
 			<set name="keywords">shell, djinni</set>
-			<set name="category">Wondrous Item</set>
+			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="type">Wondrous Item</set>
