@@ -4,13 +4,14 @@
 		<name>Setting Specific - Wedrin</name>
 		<description>The content from the setting specific supplement for Wedrin.</description>
 		<author url="https://github.com/AstroSnout">AstroSnout</author>
-		<update version="0.2.1">
+		<update version="0.2.2">
 			<file name="setting-specific-wedrin.index" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin.index" />
 		</update>
 	</info>
 	<files>
 		<file name="source.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/source.xml" />
 		<file name="optional-class-features.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/optional-class-features.xml" />
+		<file name="spells.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/spells.xml" />
 
 		<!-- Items -->
 		<file name="items-weapons.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/items-weapons.xml" />
