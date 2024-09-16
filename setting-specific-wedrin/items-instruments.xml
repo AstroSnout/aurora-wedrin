@@ -2,7 +2,7 @@
 <elements>
     <info>
 		<name>Instruments</name>
-		<update version="0.2.3">
+		<update version="0.2.4">
 			<file name="items-instruments.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/items-instruments.xml" />
 		</update>
 	</info>
@@ -18,9 +18,24 @@
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">1 lbs.</set>
             <set name="slot">onehand</set>
-            <set name="type">Wondrous Item</set>
+            <set name="type">Musical Instruments</set>
 			<set name="rarity">Very Rare</set>
             <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_FLUTE</set>
+		</setters>
+	</element>
+	<element name="Harmonious Shredder" type="Magic Item" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_HARMONIOUS_SHREDDER">
+		<description>
+			<p>You can spend 10 minutes playing a hauntingly energetic metal solo on this lute. When you complete the solo, choose 2 spells of 4th level or lower from the Bard spell list. You can cast each of these spells at 4th level once before your next long rest. You can play this song once per long rest.</p>
+		</description>
+		<setters>
+			<set name="keywords">harmonious shredder, guitar, lute, cast, spell</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">onehand</set>
+            <set name="type">Musical Instruments</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
 		</setters>
 	</element>
 </elements>

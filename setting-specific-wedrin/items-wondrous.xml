@@ -2,7 +2,7 @@
 <elements>
     <info>
 		<name>Wondrous Items</name>
-		<update version="0.2.2">
+		<update version="0.2.3">
 			<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/AstroSnout/aurora-wedrin/master/setting-specific-wedrin/items-wondrous.xml" />
 		</update>
 	</info>
@@ -93,7 +93,6 @@
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="type">Wondrous Item</set>
-			<set name="attunement">true</set>
 			<set name="rarity">Common</set>
 		</setters>
 	</element>
@@ -103,6 +102,20 @@
 		</description>
 		<setters>
 			<set name="keywords">shell, djinni</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Ring of Easy Mind" type="Magic Item" source="Setting Specific (Wedrin)" id="ID_SSW_MAGIC_ITEM_RING_OF_EASY_MIND">
+		<description>
+			<p>While wearing this ring, you have the effects of <i>Nondetection</i> spell being cast on you.</p>
+		</description>
+		<setters>
+			<set name="keywords">easy mind, nondetection</set>
 			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
